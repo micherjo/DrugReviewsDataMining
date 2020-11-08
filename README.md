@@ -6,11 +6,7 @@ In Gräber (2018), the authors scraped online review data from Drugs.com and Dru
 
 This Python notebook performs additional descriptive and predictive data mining techniques to this data set, as follows:  
 
-1.	Exploratory analysis to detect potential patterns or relationships:
-
-  a.	Distribution of various features, such as distribution of drug ratings, distribution of drug review lengths, distribution of review helpfulness scores, etc.
-  b.	Relationships between features, i.e. relationship between date of review and drug rating, condition treated and the number of reviews, review length and condition treated, helpfulness of review and length of review, review length and drug rating, condition treated and drug rating
-  c.	Identify the most-used words in drug reviews
+1.	Exploratory analysis to detect potential patterns or relationships: (a)	Distribution of various features, such as distribution of drug ratings, distribution of drug review lengths, distribution of review helpfulness scores, etc. (b) Relationships between features, i.e. relationship between date of review and drug rating, condition treated and the number of reviews, review length and condition treated, helpfulness of review and length of review, review length and drug rating, condition treated and drug rating (c) Identify the most-used words in drug reviews
 
 2.	Text Extraction/“Featurizing” Text:  Extract keywords from the unstructured drug review text for use as predictors in regression analysis, using techniques such as TF-IDF, Latent Semantic Analysis (LSA)/Principal Component Analysis, and/or spectral learning (Eigenwords) algorithms.
 
